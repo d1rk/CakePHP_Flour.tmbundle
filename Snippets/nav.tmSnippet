@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;Nav-&gt;add('${1:Primary}', array(
+	'name' =&gt; '${2}',
+	${3:'url' =&gt; '${4}',}
+	'type' =&gt; '${5:link}',
+	'ico' =&gt; '${6:cross}',
+	${7:'class' =&gt; '${8:positive}',}
+));
+</string>
+	<key>name</key>
+	<string>nav</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>nav</string>
+	<key>uuid</key>
+	<string>0A1422EF-315A-4223-A827-B25B794C1E5F</string>
+</dict>
+</plist>

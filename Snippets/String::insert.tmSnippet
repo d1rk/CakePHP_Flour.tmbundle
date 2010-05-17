@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>String::insert(
+	__('${1}', true),
+	${2:Set::flatten(\$this-&gt;data)}
+);
+</string>
+	<key>name</key>
+	<string>String::insert</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ins</string>
+	<key>uuid</key>
+	<string>6847547C-DFAC-4846-BE19-FC145EB262CF</string>
+</dict>
+</plist>

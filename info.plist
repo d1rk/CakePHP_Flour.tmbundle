@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Cake.Flour</string>
+	<key>ordering</key>
+	<array>
+		<string>84AD6086-A1BC-48FE-AEDC-24377F020E3C</string>
+		<string>21790F5A-23F8-47AD-B816-D016B0552E5C</string>
+		<string>B49622A6-D3DA-4391-9597-1E8CABFB943B</string>
+		<string>6847547C-DFAC-4846-BE19-FC145EB262CF</string>
+		<string>96AE02F8-EAE0-43D8-B6CE-68366099456D</string>
+		<string>8463F5E1-64A0-4026-907D-37728F942A9D</string>
+		<string>CD33901F-F5FD-495C-B545-A9310896169A</string>
+		<string>0A1422EF-315A-4223-A827-B25B794C1E5F</string>
+		<string>C81C9B38-64EC-433B-A026-3255BEF01CDC</string>
+	</array>
+	<key>uuid</key>
+	<string>1687CCD6-7DE4-42CC-960C-A973C93720B1</string>
+</dict>
+</plist>

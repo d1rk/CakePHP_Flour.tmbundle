@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:echo \$this-&gt;Form-&gt;create('${2:Model}', array('action' =&gt; \$this-&gt;action));}
+echo \$this-&gt;element('content_start');
+
+echo \$this-&gt;element('content_stop');
+${3:echo \$form-&gt;end();}</string>
+	<key>name</key>
+	<string>content</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>content</string>
+	<key>uuid</key>
+	<string>8463F5E1-64A0-4026-907D-37728F942A9D</string>
+</dict>
+</plist>
