@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>array('controller' =&gt; '${1}', 'action' =&gt; '${2}'${3:, '${4:name}' =&gt; '${5}'})</string>
+	<string>\$filters[__('${1:Name}', true)] = array('controller' =&gt; '${2}', 'action' =&gt; '${3}', '${4:named_param}' =&gt; '${5}');
+</string>
 	<key>name</key>
-	<string>url</string>
+	<string>table filter</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>url</string>
+	<string>table</string>
 	<key>uuid</key>
-	<string>882D292F-C351-4BD4-A4CD-46E0140C8444</string>
+	<string>A2B40720-9044-4B6D-B02D-2BBB5F132600</string>
 </dict>
 </plist>

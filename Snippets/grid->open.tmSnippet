@@ -2,11 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>echo $grid-&gt;open();
+
+	${1}
+		
+echo $grid-&gt;close();</string>
 	<key>name</key>
-	<string>CakePHP Flour</string>
-	<key>scopeName</key>
+	<string>grid-&gt;open</string>
+	<key>scope</key>
 	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>grid</string>
 	<key>uuid</key>
-	<string>84AD6086-A1BC-48FE-AEDC-24377F020E3C</string>
+	<string>46940DCF-3AB8-41C5-9ACB-91EBD9791130</string>
 </dict>
 </plist>

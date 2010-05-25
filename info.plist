@@ -3,15 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Cake.Flour</string>
+	<string>CakePHP Flour</string>
 	<key>ordering</key>
 	<array>
 		<string>84AD6086-A1BC-48FE-AEDC-24377F020E3C</string>
 		<string>21790F5A-23F8-47AD-B816-D016B0552E5C</string>
-		<string>B49622A6-D3DA-4391-9597-1E8CABFB943B</string>
 		<string>6847547C-DFAC-4846-BE19-FC145EB262CF</string>
 		<string>96AE02F8-EAE0-43D8-B6CE-68366099456D</string>
+		<string>5A4D0AE6-7EDF-4B77-BC75-457D95CF5DF5</string>
+		<string>E8038EBE-BDE8-4044-A1F5-684114B4A56B</string>
+		<string>A2B40720-9044-4B6D-B02D-2BBB5F132600</string>
+		<string>5C4B171E-945C-497B-A7CB-6E889E4EE832</string>
+		<string>7B208C6F-929A-4CF8-A4F9-1764B1B3B131</string>
 		<string>8463F5E1-64A0-4026-907D-37728F942A9D</string>
+		<string>F93E3E13-8F7D-4369-B7A2-2EFF473CD9A3</string>
+		<string>46940DCF-3AB8-41C5-9ACB-91EBD9791130</string>
+		<string>060C4FED-E488-41FB-B4D6-C2D016E26899</string>
+		<string>882D292F-C351-4BD4-A4CD-46E0140C8444</string>
 		<string>CD33901F-F5FD-495C-B545-A9310896169A</string>
 		<string>0A1422EF-315A-4223-A827-B25B794C1E5F</string>
 		<string>C81C9B38-64EC-433B-A026-3255BEF01CDC</string>

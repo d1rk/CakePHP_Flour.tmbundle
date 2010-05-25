@@ -3,14 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>array('controller' =&gt; '${1}', 'action' =&gt; '${2}'${3:, '${4:name}' =&gt; '${5}'})</string>
+	<string>echo \$grid-&gt;span(${1:12}${2:, null, array('id' =&gt; '${3}')});
+
+	${4}
+
+echo \$grid-&gt;end();</string>
 	<key>name</key>
-	<string>url</string>
+	<string>grid-&gt;span</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>url</string>
+	<string>grid</string>
 	<key>uuid</key>
-	<string>882D292F-C351-4BD4-A4CD-46E0140C8444</string>
+	<string>060C4FED-E488-41FB-B4D6-C2D016E26899</string>
 </dict>
 </plist>

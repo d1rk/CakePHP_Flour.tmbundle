@@ -6,6 +6,9 @@
 	<string>${1:echo \$this-&gt;Form-&gt;create('${2:Model}', array('action' =&gt; \$this-&gt;action));}
 echo \$this-&gt;element('content_start');
 
+	echo \$this-&gt;Form-&gt;hidden('');
+	
+
 echo \$this-&gt;element('content_stop');
 ${3:echo \$form-&gt;end();}</string>
 	<key>name</key>

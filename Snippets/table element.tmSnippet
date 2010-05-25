@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>echo \$this-&gt;element('table', array(
+	'template' =&gt; ${1:\$template},
+	'element' =&gt; '${2:view/row}',
+	'search' =&gt; '${4:Model}',
+	'filters' =&gt; \$filters,
+	'current_searchterms' =&gt; (isset($search)) ? $search : '',
+));</string>
+	<key>name</key>
+	<string>table element</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>table</string>
+	<key>uuid</key>
+	<string>5A4D0AE6-7EDF-4B77-BC75-457D95CF5DF5</string>
+</dict>
+</plist>

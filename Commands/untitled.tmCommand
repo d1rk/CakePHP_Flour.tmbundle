@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+$output = "array(\n";
+
+$lines = explode("\n", $_ENV['TM_SELECTED_TEXT']);
+
+$key_open = false;
+
+foreach($lines as $line) {
+	$chunks = explode("\t", $line);
+	
+	if(!empty($chunks[0])) {
+		if($key_open) {
+			$output .= "\t),\n";
+		}
+		$key = addcslashes($chunks[0],"'");
+		$output .= "\t'$key' =&gt; array(\n";
+		$key_open = true;
+	}
+	if(!empty($chunks[1])) {
+		$value = addcslashes($chunks[1],"'");
+		$output .= "\t\t'$value',\n";
+	}
+	
+}
+
+if($key_open) {
+	$output .= "\t),\n";
+}
+
+$output .= ");";
+echo $output."\n\n";
+?&gt;
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@A</string>
+	<key>name</key>
+	<string>Tabbed list to Array</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>7B208C6F-929A-4CF8-A4F9-1764B1B3B131</string>
+</dict>
+</plist>
