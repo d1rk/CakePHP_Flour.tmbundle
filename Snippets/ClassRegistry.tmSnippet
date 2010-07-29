@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:Model} = ClassRegistry::init('${1:Model}');
+</string>
+	<key>name</key>
+	<string>ClassRegistry</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>reg</string>
+	<key>uuid</key>
+	<string>0ED5B326-7254-47FA-879C-7A8E4E63B480</string>
+</dict>
+</plist>
