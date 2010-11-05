@@ -3,21 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>echo \$this-&gt;element('box', array(
-	'caption' =&gt; '${1}',
-	'btnbar' =&gt; ${2:''},
-	'label' =&gt; ${3:''},
-	'content' =&gt; ${4:''},
-	'footer' =&gt; ${5:''},
-	${6:'class' =&gt; 'box',}
-));</string>
+	<string>\$this-&gt;log(${1}, 'debug');</string>
 	<key>name</key>
-	<string>box</string>
+	<string>$this-&gt;log()</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>box</string>
+	<string>log</string>
 	<key>uuid</key>
-	<string>5C4B171E-945C-497B-A7CB-6E889E4EE832</string>
+	<string>88C8C268-6106-47C4-AB55-7CC4AC5DB2A7</string>
 </dict>
 </plist>

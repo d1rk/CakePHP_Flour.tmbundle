@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Index action
+ *
+ * @access public
+ */
+	function admin_index()
+	{
+		\$search = (isset(\$this-&gt;params['named']['search']))
+			? \$this-&gt;params['named']['search']
+			: '';
+
+		\$conditions = array();
+
+		if(!empty(\$search)) {
+			\$conditions['OR'] = array(
+				'${1:SingularModel}.id =' =&gt; \$search,
+				'$1.name LIKE' =&gt; '%'.\$search.'%',
+			);
+		}
+	
+		\$this-&gt;set('search', \$search);
+		\$this-&gt;data = \$this-&gt;paginate('$1', \$conditions);
+	}
+</string>
+	<key>name</key>
+	<string>admin_index</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>52E983DD-B7ED-4574-893F-2AADA7FAB33D</string>
+</dict>
+</plist>

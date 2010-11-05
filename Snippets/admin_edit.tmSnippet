@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Edit action
+ *
+ * @access public
+ * @param integer $id ID of record
+ */
+	function admin_edit(\$id)
+	{
+		if(!empty(\$this-&gt;data))
+		{
+			if(\$this-&gt;${1:SingularModel}-&gt;save(\$this-&gt;data))
+			{
+				\$this-&gt;Flash-&gt;success(
+					__('$1 :$1.name saved successfully.', true),
+					array('controller' =&gt; '${2:PluralController}', 'action' =&gt; 'index')
+				);
+			} else {
+				\$this-&gt;Flash-&gt;error(
+					__('$1 :$1.name could not be saved.', true)
+				);
+			}
+		}
+		\$this-&gt;data = \$this-&gt;$1-&gt;read(null, $id);
+	}
+</string>
+	<key>name</key>
+	<string>admin_edit</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>260F5672-6727-4306-9B7E-0FA85E8A8649</string>
+</dict>
+</plist>

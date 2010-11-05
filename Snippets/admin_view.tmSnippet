@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * View action
+ *
+ * @access public
+ * @param integer \$id ID of record
+ */ 
+    function admin_view(\$id = null) {
+        if (!\$id) {
+            \$this-&gt;Session-&gt;setFlash(__('Invalid ${1:SingularModel}.', true));
+            \$this-&gt;redirect(array('action'=&gt;'index'));
+        }
+        \$this-&gt;set('data', \$this-&gt;$1-&gt;read(null, \$id));
+    }
+</string>
+	<key>name</key>
+	<string>admin_view</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>DBE737F8-D7EC-48E8-8F0C-27BE1DBF9F9A</string>
+</dict>
+</plist>

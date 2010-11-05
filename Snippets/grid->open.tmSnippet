@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>echo $grid-&gt;open();
+	<string>echo \$grid-&gt;open();
 
 	${1}
 		
-echo $grid-&gt;close();</string>
+echo \$grid-&gt;close();</string>
 	<key>name</key>
 	<string>grid-&gt;open</string>
 	<key>scope</key>
